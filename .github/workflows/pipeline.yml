@@ -9,7 +9,7 @@ jobs:
     - name: Checks out the code
       uses: actions/checkout@v2
     - name: Runs the script
-      run: python hellp.py
+      run: python hello.py
 
   build:
     needs: [test]
